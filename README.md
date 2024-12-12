@@ -24,3 +24,31 @@ This project implements a lightweight, serverless script for handling weighted U
    ```bash
    git clone https://github.com/yourusername/weighted-url-redirect-handler.git
    cd weighted-url-redirect-handler
+   ```
+
+## Usage
+Update the `destinations` array in the script with your URLs and weights:
+```javascript
+const destinations = [
+  { url: "https://example.com/linkA", weight: 80 },
+  { url: "https://example.com/linkB", weight: 15 },
+  { url: "https://example.com/linkC", weight: 5 },
+];
+```
+Deploy the updated script and send requests to the endpoint.
+
+## Example Output
+Logs:
+- Incoming request URL
+- Generated cache key
+- Selected destination URL
+
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Author
+ndofox - [ndofox.404](https://ndofox.404)
+
