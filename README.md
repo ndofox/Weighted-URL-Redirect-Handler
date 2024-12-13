@@ -22,7 +22,7 @@ This project implements a lightweight, serverless script for handling weighted U
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/weighted-url-redirect-handler.git
+   git clone https://github.com/ndofox/weighted-url-redirect-handler.git
    cd weighted-url-redirect-handler
    ```
 
